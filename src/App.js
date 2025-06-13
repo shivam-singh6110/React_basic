@@ -14,6 +14,8 @@ function App() {
     <div className="container">
       <h1>Hello</h1>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sapiente corporis voluptatibus minus quod esse incidunt eveniet architecto accusantium optio.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, consequatur?</p>
     </div>
     </>
   );
