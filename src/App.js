@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <>
     <nav>
@@ -16,9 +16,11 @@ function App() {
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sapiente corporis voluptatibus minus quod esse incidunt eveniet architecto accusantium optio.</p>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, consequatur?</p>
+
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, maxime.c</p>
     </div>
     </>
   );
 }
 
-export default App;
+// export default App;
