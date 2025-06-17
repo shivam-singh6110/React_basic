@@ -14,6 +14,10 @@ export default function TextForm(props) {
     let newText=text.toLowerCase();
     setText(newText);
   }
+  const handleClear = () =>{
+    let newText="";
+    setText(newText);
+  }
   const [text,setText] = useState('');   
   // text="new text";  wrong way to change the state
   // setText("New text");    //correct way to change the state
@@ -24,8 +28,10 @@ export default function TextForm(props) {
 <div className="mb-3">
 <textarea className="form-control" id="myBox" rows="8" value={text} onChange={heandleOnChange}></textarea> 
 </div>
-<button className="btn btn-primary my-2" onClick={handleUpClick}>Convert into Uppercase</button><br/>
-<button className="btn btn-primary my-2" onClick={handleUpClick1}>Convert into Lowercase</button>
+<button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert into Uppercase</button>
+<button className="btn btn-primary mx-2" onClick={handleUpClick1}>Convert into Lowercase</button>
+<button className="btn btn-primary mx-2" onClick={handleClear}>Clear</button>
+ 
     </div>
     <div className="container my-3">
       <h1>Your text summary</h1>
